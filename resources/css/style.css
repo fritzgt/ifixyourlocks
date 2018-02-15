@@ -1,0 +1,217 @@
+html {
+	
+}
+
+body {
+	font-family: 'Helvetica';
+	font-size: 16px;
+	margin: 0;
+	font-weight: lighter;
+}
+
+/*Nav bar*/
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+	padding: .7rem;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+#logo {
+	height: 4rem;
+
+}
+
+header nav {
+	padding-right: 2rem;
+}
+
+header nav li{
+	display: inline-block;
+	font-size: 1.2rem;
+	padding: 0 1rem 0 1rem;
+}
+
+nav li a{
+	text-decoration: none;
+	color: black;
+	transition-duration: 300ms;
+}	
+
+nav li a:hover {
+	color: red;
+}	
+
+#cart {
+	border-radius: 15px;
+	color: white;
+	border: 2px solid #F7C557;
+}
+	
+/*Main banner */
+
+.imgcontainer {
+	padding-top: 5rem;
+
+}
+
+#mainimg {
+	background-image: url(../images/ig35.jpg);
+	height: 1000px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.sale {
+	position: absolute;
+	bottom: 5%;
+	left: 10%;
+	font-size: 2rem;
+	color: white;
+	line-height: 1.5;
+}
+
+
+.sale img {
+	height: 7rem;
+	width: auto;
+}
+
+.paypal {
+	position: absolute;
+	bottom: 5%;
+	left: 70%;
+}
+
+.paypal img {
+	height: 7rem;
+	width: auto;
+}
+
+
+/*Shopping section*/
+
+
+#about{
+	position: absolute;
+	top: -80px;
+}
+
+
+.shopgallery {
+	margin: 0 auto;
+	position: relative;
+	bottom: 20rem;
+}
+
+#shopheading {
+	display: block;
+	padding: 3rem;
+}
+
+.description {
+	font-size: 1.2rem;
+	background-color: rgba(46, 48, 46, 0.8);
+	color: white;
+	padding: 2rem;
+	line-height: 2rem;
+	width: 1000px;
+	margin: 0 auto;
+}
+.description h2{
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 2.5;
+	text-align: center;
+}	
+
+.features {
+    font-weight: bold;
+	line-height: 2.5;
+}
+
+ul li {
+	list-style-type: circle;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.img  {
+	padding: 2rem;
+}
+
+.img img {
+	height: 15rem;
+	width: auto;
+}
+
+.addbutton {
+	padding-top: 2rem;
+}
+
+
+/*Instructions*/
+
+.instructionspic {
+	background-image: url(../images/ifx.jpg);
+	height: 1200px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+#instructions {
+	position: relative;
+	bottom: -10rem;
+	padding: 5rem 3rem 5rem 3rem;
+}
+
+#steps li{
+	list-style-type: decimal;
+}
+
+
+/*Contact us*/
+
+
+#contact {
+	background-color: #eee;
+	color: black;
+	height: 900px;
+	margin: 5rem auto;
+}
+
+
+
+/*Footer*/
+
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(46, 48, 46, 0.5);
+	color: white;
+	text-align: center;
+}
+
+footer p{
+	padding: 3rem;
+
+}
+
+
+
+
